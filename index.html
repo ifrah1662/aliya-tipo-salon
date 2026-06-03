@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="ur">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Welcome to Aliya Tipo Salon - Pakistan ka premium beauty salon jahan hair, skin, aur bridal treatments behtareen tareeqe se kiye jate hain. Aaj hi appointment book karen.">
+  <title>Aliya Tipo Salon | Premium Hair, Skin & Bridal Services</title>
+  
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- Font Awesome Icons for premium styling -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body id="home">
+
+  <!-- HEADER / NAVIGATION -->
+  <header>
+    <div class="container">
+      <a href="#home" class="logo">
+        <span class="logo-text">ALIYA<span> TIPO</span></span>
+      </a>
+      
+      <nav class="nav-menu">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#deals" class="nav-link">Deals</a>
+        <a href="#gallery" class="nav-link">Gallery</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+      
+      <div class="nav-actions">
+        <a href="#bookingModal" class="btn btn-accent btn-sm" data-action="book">Appointment Book Karen</a>
+        <button class="hamburger" aria-label="Toggle navigation menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="hero-bg" style="background-image: url('images/hero.png');"></div>
+    <div class="hero-overlay"></div>
+    <div class="container">
+      <div class="hero-content">
+        <span class="hero-tagline">Haseen Aur Shandaar Look</span>
+        <h1>Apni Khubsurati Ko<br>Naya Andaz Dein.</h1>
+        <p class="hero-sub">Premium hair, skin aur bridal treatments jo aapko dein aik naya, aakarshak aur behtareen look, hamare nihayat hi sukoon-deh aur luxury salon mein.</p>
+        <div class="hero-btns">
+          <a href="#bookingModal" class="btn btn-accent" data-action="book">Appointment Book Karen</a>
+          <a href="#deals" class="btn btn-outline" style="color: white; border-color: white;">Deals Dekhein</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT US SECTION -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-img-container">
+          <div class="about-img-wrapper">
+            <img src="images/about.png" alt="Aliya Tipo Salon Stylists">
+          </div>
+          <div class="about-img-border"></div>
+          <div class="about-badge">
+            <span class="about-badge-number">10+</span>
+            <span class="about-badge-text">Saal Ka Tajurba</span>
+          </div>
+        </div>
+        
+        <div class="about-content">
+          <span class="sub">Hamari Kahani</span>
+          <h2>Jahan Khubsurati Aur Behtareen Care Milti Hai</h2>
+          <p class="about-text">
+            Aliya Tipo Salon mein hum samajhte hain ke khubsurati aik kala (art) hai. Hamare tajurba-kar stylists aur experts aapki natural beauty ko nikharny ke liye premium quality products, modern techniques aur dil-o-jaan se kaam karte hain. Hum har service ko aapke sukoon aur khushi ke mutabiq banate hain.
+          </p>
+          
+          <div class="about-features">
+            <div class="feature-item">
+              <div class="feature-icon"><i class="fas fa-gem"></i></div>
+              <div class="feature-text">
+                <h4>Behtareen Products</h4>
+                <p>Hum sirf aala tareen aur safe international brands istemal karte hain.</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon"><i class="fas fa-magic"></i></div>
+              <div class="feature-text">
+                <h4>Khas Stylists</h4>
+                <p>Hamare certified experts aapki khubsurati ko mazeed nikharenge.</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon"><i class="fas fa-award"></i></div>
+              <div class="feature-text">
+                <h4>Saaf-Suthra Mahool</h4>
+                <p>Har tool aur chair ko har service ke baad sanitize kiya jata hai.</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon"><i class="fas fa-heart"></i></div>
+              <div class="feature-text">
+                <h4>Aapki Pasand</h4>
+                <p>Har client ki skin aur hair type ke mutabiq makhsoos treatments.</p>
+              </div>
+            </div>
+          </div>
+          
+          <a href="#services" class="btn btn-primary">Hamari Services Dekhein</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES SECTION -->
+  <section id="services" class="section section-bg-alt">
+    <div class="container">
+      <div class="section-header">
+        <span class="sub">Hamari Khas Services</span>
+        <h2>Salon Services Menu</h2>
+        <p>Aapke liye hamari kuch khas aur behtareen treatments. Details check karne ke liye niche di gayi categories par click karen.</p>
+      </div>
+      
+      <div class="services-layout">
+        <!-- Vertical Tabs Navigation -->
+        <nav class="services-tabs" aria-label="Services categories">
+          <button class="service-tab-btn active" data-target="hair">
+            <i class="fas fa-scissors"></i> Baal Ki Care (Hair)
+          </button>
+          <button class="service-tab-btn" data-target="skin">
+            <i class="fas fa-spa"></i> Skin Aur Facial
+          </button>
+          <button class="service-tab-btn" data-target="makeup">
+            <i class="fas fa-wand-magic-sparkles"></i> Bridal & Party Makeup
+          </button>
+        </nav>
+        
+        <!-- Panes Wrapper -->
+        <div class="services-panes">
+          
+          <!-- HAIR SERVICES -->
+          <div class="services-pane active" id="hair">
+            <div class="services-list-grid">
+              <div class="service-item">
+                <div class="service-item-header">
+                  <span class="service-item-title">Cut Aur Blowout</span>
+                  <span class="service-item-price">Rs. 2,999</span>
+                </div>
+                <p class="service-item-desc">Aapke face structure ke mutabiq hair cut aur aala volume blowout styling.</p>
+              </div>
+              <div class="service-item">
+                <div class="service-item-header">
+                  <span class="service-item-title">Special Hair Styling</span>
+                  <span class="service-item-price">Rs. 3,499</span>
+                </div>
+                <p class="service-item-desc">Shadi, party ya kisi bhi khas event ke liye khubsurat hairstyles aur updos.</p>
+              </div>
+              <div class="service-item">
+                <div class="service-item-header">
+                  <span class="service-item-title">Balayage Aur Hair Color</span>
+                  <span class="service-item-price">Rs. 8,999+</span>
+                </div>
+                <p class="service-item-desc">Aapki pasand ke mutabiq professional dimensional hand-painted hair highlights aur color glaze.</p>
+              </div>
+              <div class="service-item">
+                <div class="service-item-header">
+                  <span class="service-item-title">Keratin Smoothing</span>
+                  <span class="service-item-price">Rs. 11,999</span>
+                </div>
+                <p class="service-item-desc">Frizzy aur bejan baalon ko mukammal taur par seedha, mulayam aur shiny banayein.</p>
+              </div>
+            </div>
+          </div>
+          
+          <!-- SKIN SERVICES -->
+          <div class="services-pane" id="skin">
+            <div class="services-list-grid">
+              <div class="service-item">
+                <div class="service-item-header">
+                  <span class="service-item-title">Deep Hydrating Facial</span>
+                  <span class="service-item-price">Rs. 3,999</span>
+                </div>
+                <p class="service-item-desc">Bejan aur dry skin ko dubara se fresh aur naram-o-mulayam banayein.</p>
+              </div>
+              <div class="service-item">
+                <div class="service-item-header">
+                  <span class="service-item-title">Organic Skin Cleansing</span>
+                  <span class="service-item-price">Rs. 2,499</span>
+                </div>
+                <p class="service-item-desc">Qudrati jari-bootiyon aur natural extracts se pores ki gehri safai.</p>
+              </div>
+              <div class="service-item">
+                <div class="service-item-header">
+                  <span class="service-item-title">Radiant Glow Therapy</span>
+                  <span class="service-item-price">Rs. 4,499</span>
+                </div>
+                <p class="service-item-desc">LED light treatment aur Vitamin-C serum se chehre pe shandar instant chamak.</p>
+              </div>
+              <div class="service-item">
+                <div class="service-item-header">
+                  <span class="service-item-title">Anti-Aging Collagen Facial</span>
+                  <span class="service-item-price">Rs. 5,999</span>
+                </div>
+                <p class="service-item-desc">Jhurriyon ko kam karne aur skin ko tight, jawan aur fresh banane ke liye.</p>
+              </div>
+            </div>
+          </div>
+          
+          <!-- MAKEUP SERVICES -->
+          <div class="services-pane" id="makeup">
+            <div class="services-list-grid">
+              <div class="service-item">
+                <div class="service-item-header">
+                  <span class="service-item-title">Glam Party Makeup</span>
+                  <span class="service-item-price">Rs. 4,999</span>
+                </div>
+                <p class="service-item-desc">Kisi bhi party ya function ke liye flawless base, eyes glam aur lash extensions.</p>
+              </div>
+              <div class="service-item">
+                <div class="service-item-header">
+                  <span class="service-item-title">Engagement / Nikkah Makeup</span>
+                  <span class="service-item-price">Rs. 9,999</span>
+                </div>
+                <p class="service-item-desc">Nikkah aur Engagement ke liye aik nihayat hi pyara aur soft-focus natural look.</p>
+              </div>
+              <div class="service-item">
+                <div class="service-item-header">
+                  <span class="service-item-title">Royal HD Bridal Makeup</span>
+                  <span class="service-item-price">Rs. 24,999</span>
+                </div>
+                <p class="service-item-desc">Barat aur Walima ke liye flawless long-wear airbrush bridal makeup package.</p>
+              </div>
+              <div class="service-item">
+                <div class="service-item-header">
+                  <span class="service-item-title">Model / Shoot Makeup</span>
+                  <span class="service-item-price">Rs. 14,999</span>
+                </div>
+                <p class="service-item-desc">Professional photography aur video shoots ke liye high-definition modern makeup.</p>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXCLUSIVE DEALS SECTION -->
+  <section id="deals" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="sub">Special Offers</span>
+        <h2>Aliya Tipo Special Packages</h2>
+        <p>Hamare special packages jo aapki khubsurati aur sukoon ko dhyan mein rakh kar khas discount qeemat par design kiye gaye hain.</p>
+      </div>
+      
+      <div class="deals-grid">
+        <!-- Deal 1 -->
+        <div class="deal-card">
+          <div class="deal-img-wrapper">
+            <img src="images/deal_glow.png" alt="Glow-Up Package - Facial, Hair Trim, Threading">
+            <span class="deal-badge">Popular</span>
+          </div>
+          <div class="deal-info">
+            <div class="deal-header">
+              <h3 class="deal-title">Glow-Up Package</h3>
+              <span class="deal-price">Rs. 4,999</span>
+            </div>
+            <ul class="deal-features">
+              <li><i class="fas fa-check-circle"></i> Hydrating Facial (Chehre Ki Safai)</li>
+              <li><i class="fas fa-check-circle"></i> Signature Hair Trim & Dry</li>
+              <li><i class="fas fa-check-circle"></i> Precision Threading (Brows/Upper Lip)</li>
+              <li><i class="fas fa-check-circle"></i> Complimentary Chai ya Coffee</li>
+            </ul>
+            <a href="#bookingModal" class="btn btn-outline deal-btn" data-action="book" data-package="glow-up">Deal Book Karen</a>
+          </div>
+        </div>
+        
+        <!-- Deal 2 -->
+        <div class="deal-card">
+          <div class="deal-img-wrapper">
+            <img src="images/deal_bridal.png" alt="Bridal Bliss Essential - HD Bridal Makeup, Hair Styling, Nails">
+            <span class="deal-badge">Luxury</span>
+          </div>
+          <div class="deal-info">
+            <div class="deal-header">
+              <h3 class="deal-title">Bridal Bliss Essential</h3>
+              <span class="deal-price">Rs. 14,999</span>
+            </div>
+            <ul class="deal-features">
+              <li><i class="fas fa-check-circle"></i> HD Bridal Makeup (Airbrush)</li>
+              <li><i class="fas fa-check-circle"></i> Special Bridal Hair Styling</li>
+              <li><i class="fas fa-check-circle"></i> Premium Gel Nail Artistry</li>
+              <li><i class="fas fa-check-circle"></i> Dupatta aur Jewelry Setting</li>
+            </ul>
+            <a href="#bookingModal" class="btn btn-accent deal-btn" data-action="book" data-package="bridal-bliss">Deal Book Karen</a>
+          </div>
+        </div>
+        
+        <!-- Deal 3 -->
+        <div class="deal-card">
+          <div class="deal-img-wrapper">
+            <img src="images/deal_relax.png" alt="Weekend Relaxation - Deep Conditioning Hair Spa, Mani-Pedi, Massage">
+            <span class="deal-badge">Relax</span>
+          </div>
+          <div class="deal-info">
+            <div class="deal-header">
+              <h3 class="deal-title">Weekend Relaxation</h3>
+              <span class="deal-price">Rs. 7,499</span>
+            </div>
+            <ul class="deal-features">
+              <li><i class="fas fa-check-circle"></i> Hair Spa & Deep Conditioning</li>
+              <li><i class="fas fa-check-circle"></i> Deluxe Mani-Pedi (Hath Aur Paon)</li>
+              <li><i class="fas fa-check-circle"></i> Relaxing Head & Shoulder Massage</li>
+              <li><i class="fas fa-check-circle"></i> Herbal Aromatherapy Treatment</li>
+            </ul>
+            <a href="#bookingModal" class="btn btn-outline deal-btn" data-action="book" data-package="weekend-relax">Deal Book Karen</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY SECTION -->
+  <section id="gallery" class="section section-bg-alt">
+    <div class="container">
+      <div class="section-header">
+        <span class="sub">Hamara Kaam</span>
+        <h2>Aliya Tipo Salon Ki Jhalakian</h2>
+        <p>Hamare clients ke pyaare looks aur salon ke shandaar mahool ki kuch tasaveer.</p>
+      </div>
+      
+      <div class="gallery-grid">
+        <!-- Gallery Item 1 -->
+        <div class="gallery-item">
+          <img src="images/gallery_hair.png" alt="Haseen textured hair styling">
+          <div class="gallery-overlay">
+            <i class="fas fa-plus gallery-overlay-icon"></i>
+            <h4 class="gallery-overlay-title">Haseen Baalon Ka Look</h4>
+            <span class="gallery-overlay-category">Baal Ki Care</span>
+          </div>
+        </div>
+        
+        <!-- Gallery Item 2 -->
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?q=80&w=600&auto=format&fit=crop" alt="Premium custom nail art details">
+          <div class="gallery-overlay">
+            <i class="fas fa-plus gallery-overlay-icon"></i>
+            <h4 class="gallery-overlay-title">Pyari Nails Art</h4>
+            <span class="gallery-overlay-category">Nail Spa</span>
+          </div>
+        </div>
+        
+        <!-- Gallery Item 3 -->
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=600&auto=format&fit=crop" alt="Customer receiving facial spa treatment">
+          <div class="gallery-overlay">
+            <i class="fas fa-plus gallery-overlay-icon"></i>
+            <h4 class="gallery-overlay-title">Fresh Facial Look</h4>
+            <span class="gallery-overlay-category">Skin Care</span>
+          </div>
+        </div>
+        
+        <!-- Gallery Item 4 -->
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?q=80&w=600&auto=format&fit=crop" alt="Client with flawless makeup application">
+          <div class="gallery-overlay">
+            <i class="fas fa-plus gallery-overlay-icon"></i>
+            <h4 class="gallery-overlay-title">Shadi Ka Makeup</h4>
+            <span class="gallery-overlay-category">Elite Makeup</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS SECTION -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="sub">Hamare Clients Ki Raaey</span>
+        <h2>Log Hamare Baare Mein Kya Kehte Hain</h2>
+        <p>Hamare un clients ki sachi kahaniyan jinhone hamare paas aakar behtareen waqt guzara aur apni beauty ko nikhara.</p>
+      </div>
+      
+      <div class="testimonials-slider-wrapper">
+        <div class="testimonials-slider">
+          
+          <!-- Slide 1 -->
+          <div class="testimonial-slide">
+            <div class="testimonial-card">
+              <div class="testimonial-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <p class="testimonial-text">
+                "Yahan ka mahool boht hi sukoon-deh hai aur staff to jadu-gar hai. Maine Glow-Up package liya tha aur meri skin boht fresh lag rahi hai. Main sab ko recommend karungi!"
+              </p>
+              <div class="testimonial-author">
+                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=150&auto=format&fit=crop" alt="Sarah Mitchell" class="author-avatar">
+                <div class="author-info">
+                  <h4>Sarah Mitchell</h4>
+                  <p>Lahore</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Slide 2 -->
+          <div class="testimonial-slide">
+            <div class="testimonial-card">
+              <div class="testimonial-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <p class="testimonial-text">
+                "Maine apni shadi ke liye Bridal Bliss package book kiya tha. HD makeup boht hi pyara tha aur photos mein bilkul natural lag raha tha. Sukriya Aliya Tipo!"
+              </p>
+              <div class="testimonial-author">
+                <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=150&auto=format&fit=crop" alt="Amna Khan" class="author-avatar">
+                <div class="author-info">
+                  <h4>Amna Khan</h4>
+                  <p>Karachi</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Slide 3 -->
+          <div class="testimonial-slide">
+            <div class="testimonial-card">
+              <div class="testimonial-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <p class="testimonial-text">
+                "Saaf-suthra mahool aur safe treatment meri pehli priority thi aur yahan mujhe waisa hi mila. Weekend Relaxation massage boht hi behtareen tha."
+              </p>
+              <div class="testimonial-author">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=150&auto=format&fit=crop" alt="Zainab Bibi" class="author-avatar">
+                <div class="author-info">
+                  <h4>Zainab Bibi</h4>
+                  <p>Islamabad</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        
+        <!-- Controls -->
+        <button class="slider-btn slider-btn-prev" aria-label="Previous Testimonial">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <button class="slider-btn slider-btn-next" aria-label="Next Testimonial">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+        
+        <!-- Dots container -->
+        <div class="slider-dots"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT & FOOTER SECTION -->
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <div class="contact-card-wrapper">
+        <!-- Contact Form -->
+        <div class="contact-form-side">
+          <h3>Humse Rabta Karen</h3>
+          <p>Services ke baare mein koi sawal hai ya apna marzi ka package banana chahte hain? Hamein message bhejein, hum jald hi aapse rabta karenge.</p>
+          
+          <form id="contactForm">
+            <div class="form-grid">
+              <div class="form-group">
+                <label for="contactName">Aapka Naam</label>
+                <input type="text" id="contactName" class="form-control" placeholder="Aapka Naam" required>
+              </div>
+              <div class="form-group">
+                <label for="contactEmail">Email Address</label>
+                <input type="email" id="contactEmail" class="form-control" placeholder="email@example.com" required>
+              </div>
+              <div class="form-group">
+                <label for="contactPhone">Phone Number</label>
+                <input type="tel" id="contactPhone" class="form-control" placeholder="0300 1234567" required>
+              </div>
+              <div class="form-group">
+                <label for="contactService">Kis Service Mein Dilchaspi Hai</label>
+                <select id="contactService" class="form-control">
+                  <option value="general">Aam Sawal</option>
+                  <option value="hair">Baal Ki Care (Hair)</option>
+                  <option value="skin">Skin Care / Facial</option>
+                  <option value="makeup">Party Makeup</option>
+                  <option value="wedding">Shadi (Bridal) Package</option>
+                </select>
+              </div>
+              <div class="form-group form-group-full">
+                <label for="contactMessage">Aapka Paigham</label>
+                <textarea id="contactMessage" class="form-control" placeholder="Hum aapki kiya madad kar sakte hain?" required></textarea>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Paigham Bheinjein <i class="fas fa-paper-plane" style="margin-left: 0.5rem; font-size: 0.9rem;"></i></button>
+          </form>
+        </div>
+        
+        <!-- Contact details / hours -->
+        <div class="contact-info-side">
+          <div>
+            <h3>Contact Details</h3>
+            <div class="contact-info-list">
+              <div class="info-item">
+                <div class="info-item-icon"><i class="fas fa-phone"></i></div>
+                <div class="info-item-text">
+                  <h5>Call Karen</h5>
+                  <p>+92 300 1234567</p>
+                </div>
+              </div>
+              <div class="info-item">
+                <div class="info-item-icon"><i class="fas fa-envelope"></i></div>
+                <div class="info-item-text">
+                  <h5>Email Karen</h5>
+                  <p>info@aliatiposalon.com</p>
+                </div>
+              </div>
+              <div class="info-item">
+                <div class="info-item-icon"><i class="fas fa-map-marker-alt"></i></div>
+                <div class="info-item-text">
+                  <h5>Yahan Aayein</h5>
+                  <p>123 Beauty Lane, Gulberg III, Lahore</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="hours-widget">
+            <h4><i class="far fa-clock"></i> Timings</h4>
+            <div class="hours-row">
+              <span>Peer - Juma</span>
+              <span>10:00 AM - 8:00 PM</span>
+            </div>
+            <div class="hours-row">
+              <span>Hafta</span>
+              <span>09:00 AM - 9:00 PM</span>
+            </div>
+            <div class="hours-row">
+              <span>Itwar</span>
+              <span>11:00 AM - 5:00 PM</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Footer links -->
+    <footer>
+      <div class="container">
+        <div class="footer-grid">
+          <!-- Col 1 -->
+          <div class="footer-col footer-about">
+            <h4>Aliya Tipo Salon</h4>
+            <p>Aliya Tipo Salon aik shandaar aur safe mahool mein behtareen beauty aur makeup treatments dene wala Pakistan ka aala salon hai.</p>
+            <div class="social-links">
+              <a href="https://instagram.com" target="_blank" rel="noopener" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+              <a href="https://facebook.com" target="_blank" rel="noopener" class="social-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://pinterest.com" target="_blank" rel="noopener" class="social-link" aria-label="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+            </div>
+          </div>
+          
+          <!-- Col 2 -->
+          <div class="footer-col">
+            <h4>Quick Links</h4>
+            <nav class="footer-links">
+              <a href="#home">Home</a>
+              <a href="#about">Hamare Baare Mein</a>
+              <a href="#services">Hamari Services</a>
+              <a href="#deals">Deals & Packages</a>
+              <a href="#gallery">Gallery Portfolio</a>
+            </nav>
+          </div>
+          
+          <!-- Col 3 -->
+          <div class="footer-col">
+            <h4>Legal Links</h4>
+            <nav class="footer-links">
+              <a href="#privacy">Privacy Policy</a>
+              <a href="#terms">Terms of Service</a>
+              <a href="#careers">Careers</a>
+              <a href="#faq">FAQs Support</a>
+            </nav>
+          </div>
+          
+          <!-- Col 4 -->
+          <div class="footer-col footer-newsletter">
+            <h4>Newsletter Join Karen</h4>
+            <p>Hamare VIP discount days aur new deals ki khabron ke liye subscribe karen.</p>
+            <form class="newsletter-form" id="newsletterForm" onsubmit="event.preventDefault(); alert('Hamare sath jurhne ka shukriya!'); this.reset();">
+              <input type="email" placeholder="Email Address..." required aria-label="Email for newsletter">
+              <button type="submit" aria-label="Subscribe"><i class="fas fa-chevron-right"></i></button>
+            </form>
+          </div>
+        </div>
+        
+        <div class="footer-bottom">
+          <p>&copy; 2026 Aliya Tipo Salon. Tamam huqooq mehfooz hain.</p>
+          <div class="footer-bottom-links">
+            <a href="#privacy">Privacy</a>
+            <a href="#terms">Terms</a>
+            <a href="#cookie">Cookies</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </section>
+
+  <!-- BOOKING MODAL -->
+  <div class="modal" id="bookingModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-overlay"></div>
+    <div class="modal-container">
+      <div class="modal-header">
+        <h3 id="modalTitle">Appointment Book Karen</h3>
+        <span class="modal-close"><i class="fas fa-times"></i></span>
+      </div>
+      
+      <div class="modal-body">
+        <!-- Input state of form -->
+        <div id="modalFormState">
+          <form id="modalBookingForm">
+            <div class="form-grid">
+              <div class="form-group">
+                <label for="bookingName">Aapka Naam</label>
+                <input type="text" id="bookingName" class="form-control" placeholder="Aapka Naam" required>
+              </div>
+              <div class="form-group">
+                <label for="bookingPhone">Phone Number</label>
+                <input type="tel" id="bookingPhone" class="form-control" placeholder="0300 1234567" required>
+              </div>
+              <div class="form-group">
+                <label for="bookingEmail">Email Address</label>
+                <input type="email" id="bookingEmail" class="form-control" placeholder="email@example.com" required>
+              </div>
+              <div class="form-group">
+                <label for="bookingService">Service Ya Package Choose Karen</label>
+                <select id="bookingService" class="form-control" required>
+                  <option value="" disabled selected>Ek service select karen</option>
+                  <optgroup label="Special Discount Packages (Deals)">
+                    <option value="glow-up">Glow-Up Package - Rs. 4,999</option>
+                    <option value="bridal-bliss">Bridal Bliss Essential - Rs. 14,999</option>
+                    <option value="weekend-relax">Weekend Relaxation - Rs. 7,499</option>
+                  </optgroup>
+                  <optgroup label="Baal Ki Care (Hair)">
+                    <option value="haircut">Cut Aur Blowout - Rs. 2,999</option>
+                    <option value="styling">Special Hair Styling - Rs. 3,499</option>
+                    <option value="balayage">Balayage Aur Hair Color - Rs. 8,999+</option>
+                    <option value="keratin">Keratin Smoothing Treatment - Rs. 11,999</option>
+                  </optgroup>
+                  <optgroup label="Skin & Glow">
+                    <option value="hydration">Deep Hydrating Facial - Rs. 3,999</option>
+                    <option value="cleansing">Organic Skin Cleansing - Rs. 2,499</option>
+                    <option value="ledglow">Radiant Glow Therapy - Rs. 4,499</option>
+                    <option value="antiaging">Anti-Aging Collagen Facial - Rs. 5,999</option>
+                  </optgroup>
+                  <optgroup label="Elite Makeup">
+                    <option value="partyglam">Glam Party Makeup - Rs. 4,999</option>
+                    <option value="engagement">Engagement / Nikkah Makeup - Rs. 9,999</option>
+                    <option value="bridalmakeup">Royal HD Bridal Makeup - Rs. 24,999</option>
+                    <option value="editorial">Model / Shoot Makeup - Rs. 14,999</option>
+                  </optgroup>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="bookingDate">Konsi Date (Din)</label>
+                <input type="date" id="bookingDate" class="form-control" required>
+              </div>
+              <div class="form-group">
+                <label for="bookingTime">Konsa Time (Waqt)</label>
+                <input type="time" id="bookingTime" class="form-control" required>
+              </div>
+              <div class="form-group form-group-full">
+                <label for="bookingMessage">Khas Request (Agar koi ho)</label>
+                <textarea id="bookingMessage" class="form-control" placeholder="Aapki skin type ya koi makhsoos stylist preference?"></textarea>
+              </div>
+            </div>
+            
+            <button type="submit" class="btn btn-accent" style="width: 100%; margin-top: 1.5rem;">Appointment Confirm Karen</button>
+          </form>
+        </div>
+        
+        <!-- Visual Success State -->
+        <div id="modalSuccessState" class="modal-success-state">
+          <div class="success-icon">
+            <i class="fas fa-check"></i>
+          </div>
+          <h4>Appointment Request Mil Gayi!</h4>
+          <p>Hum jald hi aapse call ya SMS ke zariye rabta karenge aur aapka appointment confirm karenge. Boht Sukriya!</p>
+          <button class="btn btn-primary" onclick="document.querySelector('.modal-close').click();">Boht Sukriya</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FLOATING WIDGETS -->
+  <div class="floating-actions">
+    <!-- WhatsApp Floating Action -->
+    <a href="https://wa.me/923001234567" target="_blank" rel="noopener" class="float-btn float-whatsapp" aria-label="Chat on WhatsApp">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+    <!-- Scroll-to-Top Floating Action -->
+    <button class="float-btn float-scroll-top" aria-label="Scroll back to top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+  </div>
+
+  <!-- Scripts -->
+  <script src="main.js"></script>
+</body>
+</html>
